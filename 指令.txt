@@ -1,0 +1,3 @@
+cd D:\002-school\5.univercity\datastructure\LinearList\SqList\C
+gcc main.c SqList.c -o try.exe
+./try
