@@ -1,0 +1,3 @@
+D:/002-school/5.univercity/datastructure/LinearList/SqList/build/CMakeFiles/EmployeeList.dir
+D:/002-school/5.univercity/datastructure/LinearList/SqList/build/CMakeFiles/edit_cache.dir
+D:/002-school/5.univercity/datastructure/LinearList/SqList/build/CMakeFiles/rebuild_cache.dir
