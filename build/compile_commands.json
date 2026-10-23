@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/002-school/5.univercity/datastructure/LinearList/SqList/build",
+  "command": "D:\\001-tools\\environments\\MinGW\\x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1\\mingw64\\bin\\gcc.exe  @CMakeFiles\\EmployeeList.dir\\includes_C.rsp -g -o CMakeFiles\\EmployeeList.dir\\src\\main.c.obj -c D:\\002-school\\5.univercity\\datastructure\\LinearList\\SqList\\src\\main.c",
+  "file": "D:/002-school/5.univercity/datastructure/LinearList/SqList/src/main.c",
+  "output": "CMakeFiles/EmployeeList.dir/src/main.c.obj"
+},
+{
+  "directory": "D:/002-school/5.univercity/datastructure/LinearList/SqList/build",
+  "command": "D:\\001-tools\\environments\\MinGW\\x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1\\mingw64\\bin\\gcc.exe  @CMakeFiles\\EmployeeList.dir\\includes_C.rsp -g -o CMakeFiles\\EmployeeList.dir\\src\\SqList.c.obj -c D:\\002-school\\5.univercity\\datastructure\\LinearList\\SqList\\src\\SqList.c",
+  "file": "D:/002-school/5.univercity/datastructure/LinearList/SqList/src/SqList.c",
+  "output": "CMakeFiles/EmployeeList.dir/src/SqList.c.obj"
+}
+]

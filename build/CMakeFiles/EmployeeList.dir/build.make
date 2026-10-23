@@ -79,30 +79,30 @@ CMakeFiles/EmployeeList.dir/src/main.c.obj: CMakeFiles/EmployeeList.dir/includes
 CMakeFiles/EmployeeList.dir/src/main.c.obj: D:/002-school/5.univercity/datastructure/LinearList/SqList/src/main.c
 CMakeFiles/EmployeeList.dir/src/main.c.obj: CMakeFiles/EmployeeList.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\002-school\5.univercity\datastructure\LinearList\SqList\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/EmployeeList.dir/src/main.c.obj"
-	D:\001-tools\environments\MinGW\x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EmployeeList.dir/src/main.c.obj -MF CMakeFiles\EmployeeList.dir\src\main.c.obj.d -o CMakeFiles\EmployeeList.dir\src\main.c.obj -c D:\002-school\5.univercity\datastructure\LinearList\SqList\src\main.c
+	D:\001-tools\environments\MinGW\x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EmployeeList.dir/src/main.c.obj -MF CMakeFiles\EmployeeList.dir\src\main.c.obj.d -o CMakeFiles\EmployeeList.dir\src\main.c.obj -c D:\002-school\5.univercity\datastructure\LinearList\SqList\src\main.c
 
 CMakeFiles/EmployeeList.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/EmployeeList.dir/src/main.c.i"
-	D:\001-tools\environments\MinGW\x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\002-school\5.univercity\datastructure\LinearList\SqList\src\main.c > CMakeFiles\EmployeeList.dir\src\main.c.i
+	D:\001-tools\environments\MinGW\x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\002-school\5.univercity\datastructure\LinearList\SqList\src\main.c > CMakeFiles\EmployeeList.dir\src\main.c.i
 
 CMakeFiles/EmployeeList.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/EmployeeList.dir/src/main.c.s"
-	D:\001-tools\environments\MinGW\x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\002-school\5.univercity\datastructure\LinearList\SqList\src\main.c -o CMakeFiles\EmployeeList.dir\src\main.c.s
+	D:\001-tools\environments\MinGW\x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\002-school\5.univercity\datastructure\LinearList\SqList\src\main.c -o CMakeFiles\EmployeeList.dir\src\main.c.s
 
 CMakeFiles/EmployeeList.dir/src/SqList.c.obj: CMakeFiles/EmployeeList.dir/flags.make
 CMakeFiles/EmployeeList.dir/src/SqList.c.obj: CMakeFiles/EmployeeList.dir/includes_C.rsp
 CMakeFiles/EmployeeList.dir/src/SqList.c.obj: D:/002-school/5.univercity/datastructure/LinearList/SqList/src/SqList.c
 CMakeFiles/EmployeeList.dir/src/SqList.c.obj: CMakeFiles/EmployeeList.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\002-school\5.univercity\datastructure\LinearList\SqList\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/EmployeeList.dir/src/SqList.c.obj"
-	D:\001-tools\environments\MinGW\x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EmployeeList.dir/src/SqList.c.obj -MF CMakeFiles\EmployeeList.dir\src\SqList.c.obj.d -o CMakeFiles\EmployeeList.dir\src\SqList.c.obj -c D:\002-school\5.univercity\datastructure\LinearList\SqList\src\SqList.c
+	D:\001-tools\environments\MinGW\x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/EmployeeList.dir/src/SqList.c.obj -MF CMakeFiles\EmployeeList.dir\src\SqList.c.obj.d -o CMakeFiles\EmployeeList.dir\src\SqList.c.obj -c D:\002-school\5.univercity\datastructure\LinearList\SqList\src\SqList.c
 
 CMakeFiles/EmployeeList.dir/src/SqList.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/EmployeeList.dir/src/SqList.c.i"
-	D:\001-tools\environments\MinGW\x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\002-school\5.univercity\datastructure\LinearList\SqList\src\SqList.c > CMakeFiles\EmployeeList.dir\src\SqList.c.i
+	D:\001-tools\environments\MinGW\x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\002-school\5.univercity\datastructure\LinearList\SqList\src\SqList.c > CMakeFiles\EmployeeList.dir\src\SqList.c.i
 
 CMakeFiles/EmployeeList.dir/src/SqList.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/EmployeeList.dir/src/SqList.c.s"
-	D:\001-tools\environments\MinGW\x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\002-school\5.univercity\datastructure\LinearList\SqList\src\SqList.c -o CMakeFiles\EmployeeList.dir\src\SqList.c.s
+	D:\001-tools\environments\MinGW\x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\002-school\5.univercity\datastructure\LinearList\SqList\src\SqList.c -o CMakeFiles\EmployeeList.dir\src\SqList.c.s
 
 # Object files for target EmployeeList
 EmployeeList_OBJECTS = \

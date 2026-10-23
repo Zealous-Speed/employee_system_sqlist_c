@@ -66,10 +66,10 @@ int Delete_i(SqList l, int i, employee *e) {
 
 int Delete_id(SqList l, int id, employee *e) {
     int i = Locate(l, id);
-    if (i = -1)
+    if (i == -1)
         return 0;
     else
-        if (Delete_i(l, i, e))
+        if (Delete_i(l, i+1, e))
             return 1;
 }
 

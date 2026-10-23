@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "D:/001-tools/environments/MinGW/x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1/mingw64/bin/cc.exe")
+set(CMAKE_C_COMPILER "D:/001-tools/environments/MinGW/x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1/mingw64/bin/gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "16.2.0")
