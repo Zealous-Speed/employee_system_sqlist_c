@@ -74,14 +74,14 @@ int Delete_id(SqList l, int id, employee *e) {
 }
 
 void Show(SqList l) {
-    printf("%10s%10s%10s%10s%10s\n", "序号", "工号", "姓名", "部门", "职位");
+    printf("%20s%20s%20s%20s%20s\n", "序号", "工号", "姓名", "部门", "职位");
     if (l->len == 0){
         printf("(空)\n");
         return ;
     }
     for (int i = 0; i < l->len; i ++){
         employee e = l->list[i];
-        printf("%10d%10d%10s%10s%10s\n", i, e.id, e.name, e.depart, e.posi);
+        printf("%20d%20d%20s%20s%20s\n", i+1, e.id, e.name, e.depart, e.posi);
     }
 }
 
