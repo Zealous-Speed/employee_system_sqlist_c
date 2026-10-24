@@ -33,8 +33,10 @@ CMAKE_COLOR_MAKEFILE:BOOL=ON
 // override on the command line to select a specific toolchain.
 CMAKE_CXX_COMPILER:FILEPATH=D:/001-tools/environments/MinGW/x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1/mingw64/bin/g++.exe
 
-//C compiler
-CMAKE_C_COMPILER:STRING=D:/001-tools/environments/MinGW/x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1/mingw64/bin/gcc.exe
+//Full path to the compiler used for language <LANG>. Set by CMake
+// during compiler detection on the first configure; users may
+// override on the command line to select a specific toolchain.
+CMAKE_C_COMPILER:FILEPATH=D:/001-tools/environments/MinGW/x86_64-16.2.0-release-posix-seh-ucrt-rt_v14-rev1/mingw64/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -399,6 +401,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_STRIP
 CMAKE_STRIP-ADVANCED:INTERNAL=1
+//Opaque identifier for the current system environment
+CMAKE_SYSTEM_ENVIRONMENT_ID:INTERNAL=
 //ADVANCED property for variable: CMAKE_TAPI
 CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE

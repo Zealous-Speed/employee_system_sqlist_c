@@ -11,14 +11,14 @@ int main() {
         printf("请选择您接下来要进行的操作：\n");
         printf("1. 在指定位置新建员工信息；\n");
         printf("2. 删除员工信息：\n");
-        printf("3. 显示员工信息：\n");
+        printf("3. 查询并显示员工信息：\n");
         printf("4. 退出；\n");
         scanf("%d", &t0);
         switch(t0) {
             case 1 : {
                 employee e;
                 printf("请按格式输入：工号 姓名 所在部门 职务\n");
-                printf("注意：工号须为8位且唯一；姓名、部门、职务需满足：英文不超过100个字符，中文不超过50个汉字，包括“·”\n");
+                printf("注意：工号须唯一；姓名、部门、职务需满足：英文不超过100个字符，中文不超过50个汉字，包括“·”\n");
                 printf("请输入：");
                 int check1 = scanf("%d %s %s %s", &e.id, e.name, e.depart, e.posi);
                 while (Locate(l, e.id) != -1 || !check1) {
@@ -141,7 +141,71 @@ int main() {
                 break;
             }
             case 3 : {
-                Show(l);
+                int t1, tri = 1;
+                while (tri) {
+                    printf("请选择操作：\n");
+                    printf("1. 按工号查询；\n");
+                    printf("2. 按姓名查询：\n");
+                    printf("3. 按部门查询：\n");
+                    printf("4. 按职务查询：\n");
+                    printf("5. 显示所有员工信息：\n");
+                    printf("6. 返回：\n");
+                    scanf("%d", &t1);
+                    switch (t1) {
+                        case 1 : {
+                            int id;
+                            printf("请输入查询员工的工号：");
+                            int check = scanf("%d", &id);
+                            if (check)
+                                search_id(l, id);
+                            else
+                                printf("输入失败！\n");
+                            break;
+                        }
+                        case 2 : {
+                            char s[105];
+                            printf("请输入查询员工的姓名：");
+                            int check = scanf("%s", s);
+                            if (check)
+                                search_name(l, s);
+                            else
+                                printf("输入失败！\n");
+                            break;
+                        }
+                        case 3 : {
+                            char s[105];
+                            printf("请输入查询员工的部门：");
+                            int check = scanf("%s", s);
+                            if (check)
+                                search_depart(l, s);
+                            else
+                                printf("输入失败！\n");
+                            break;
+                        }
+                        case 4 : {
+                            char s[105];
+                            printf("请输入查询员工的职位：");
+                            int check = scanf("%s", s);
+                            if (check)
+                                search_posi(l, s);
+                            else
+                                printf("输入失败！\n");
+                            break;
+                        }
+                        case 5 : {
+                            Show(l);
+                            break;
+                        }
+                        case 6 : {
+                            tri = 0;
+                            break;
+                        }
+                        default : {
+                            printf("请输入1~6之间的数字：");
+                            break;
+                        }
+                    }
+                }
                 break;
             }
             case 4 : {
@@ -149,7 +213,7 @@ int main() {
                 break;
             }
             default : {
-                printf("请输入1~4之间的数字：");
+                printf("请输入1~5之间的数字：");
                 break;
             }
         }
